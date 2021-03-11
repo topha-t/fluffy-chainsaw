@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>On your way to hell!</title>
+     <link href="background.css" rel="stylesheet">
+  </head>
+  
+  <body align="center">
+    <div class="body2" width="30%">
+      <h1>Tour Package Registration</h1>
+    <form method="post">
+      <input type="hidden" name="labcode" value="3287">
+      First Name: <input type="textbox" name = "first">
+      Last Name: <input type="textbox" name="last">
+      <br>
+      <br>
+      Number of people in party: <select>
+        <option value="1" label="1">1</option>
+        <option value="2" label="2">2</option>
+        <option value="3" label="3">3</option>
+        <option value="4" label="4">4</option>
+      </select>
+      Select tour package: <select>
+        <option value="Layer 1" label="Layer 1">Layer 1</option>
+        <option value="Layer 2" label="Layer 2">Layer 2</option>
+        <option value="Layer 3" label="Layer 3">Layer 3</option>
+        <option value="Layer 4" label="Layer 4">Layer 4</option>
+      </select>
+      <br>
+      <br>
+      Include airline travel: <input type="radio" value="yes" name="airline"> Yes
+      <input type="radio" value="no" name="airline"> No
+      <br>
+      <br>
+      Select options to include in package: <input type="checkbox" name="meals"> Meals <input type="checkbox" name="wine"> Evening Wine <input type="checkbox" name="car"> Car Rental
+      <br>
+      <br>
+      <input type="submit" value="Process Request">
+    </form>
+    <br>
+    </div>
+    
+  </body>
+</html>

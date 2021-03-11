@@ -1,0 +1,42 @@
+body {
+  background-color:#4C2928;
+  background-image:url("https://thumbs.gfycat.com/WatchfulObeseBarasingha-size_restricted.gif");
+  background-size: cover;
+  color:#EBCCC3;
+}
+.body2 {
+  background-color:#4C2928;
+}
+header, footer {
+  background-color:#805F63;
+  font-size:19px;
+}
+.main1, .main2, .main3 {
+  background-color:#AF8B93;
+  width:30%;
+  height:100%;
+}
+.flexable {
+  background-color:#E5B4BA;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type:none;
+}
+a {
+  color:darkred;
+}
+.hell {
+  color:red;
+}
+/* colors
+
+  #4C2928 (darkest)
+  #805F63
+  #AF8B93
+  #E5B4BA
+  #EBCCC3 (lightest)
+  
+*/
